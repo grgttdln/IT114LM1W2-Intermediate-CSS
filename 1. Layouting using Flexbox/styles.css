@@ -51,13 +51,13 @@
     /* TODO 1.1.3 Set the flex direction to row. Then enable flex wrap. What does wrap do? */
     flex-wrap: wrap;
     /* 
-        Answer:
+        Answer: The flex wrap, wraps the contents of the elements.
     */
     
     /* Todo 1.1.4 Set the gap of the container to 10px. Now change it to 20px. What does gap do? */
     gap: 10px;
     /* 
-        Answer: 
+        Answer: The gap adds a literal gap between contents.
     */
 
 }
@@ -109,19 +109,24 @@
 }
 
 /* Select the red box */
-.todo-4-container ___{
+.todo-4-container .red {
     /* Set margin left to auto.  */
+    margin-left: auto;
 }
 
 /* Select the green box */
-.todo-4-container __{
+.todo-4-container .green {
     /* Set margin right to auto */
+    margin-right: auto;
 }
 
 /* Select the blue box */
-.todo-4-container ___{
+.todo-4-container .blue {
     /* Set the order to  1. Try chaging the order of the other divs. What does order do?*/
-    /* Answer: */
+    order: 1;
+    /* 
+        Answer: The order changes the position of the object based on the given value.
+    */
 }
 
 
